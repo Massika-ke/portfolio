@@ -83,12 +83,12 @@ export const workData = [
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
+        title: 'Chat app',
         description: 'Mobile App',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
+        title: 'FastFoods site',
         description: 'Web Design',
         bgImage: '/work-3.png',
     },
