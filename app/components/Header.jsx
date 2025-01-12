@@ -12,10 +12,10 @@ const Header = () => {
             Hi! I'm Joseph Masika <Image src={assets.hand_icon} alt='' className='w-6'/>
         </h3>
         <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Software and Network engineer based in Kenya.
+            Software and Network Developer.
         </h1>
         <p className='max-w-2xl mx-auto font-Ovo'>
-            I am a full stack web developer and network engineer from Nairobi, Kenya with 3 years of experience in multiple companies like Konnect and Fidelity International Hospital.
+            I am a Full Stack Web Developer and Network Engineer from Nairobi, Kenya with 3 years of experience in multiple companies like Konnect and Fidelity International Hospital.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <a href='#contact' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
