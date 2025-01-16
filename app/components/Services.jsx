@@ -1,10 +1,15 @@
 import { assets, serviceData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
+import { motion } from 'motion/react'
 
 const Services = () => {
   return (
-    <div id='services'  className="w-full px-[12%] py-10 scroll-mt-20">
+    <motion.div
+    initial={{opacity: 0}}
+    whileInView={{opacity: 1}}
+    transition={{duration: 1}}
+     id='services'  className="w-full px-[12%] py-10 scroll-mt-20">
         <h4 className="text-center mb-2 text-lg font-Ovo">What I offer</h4>
         <h2 className="text-center text-5xl font-Ovo">My services</h2>
 
@@ -26,7 +31,7 @@ const Services = () => {
             </div>
           ))}
         </div>
-    </div>
+    </motion.div>
   )
 }
 
