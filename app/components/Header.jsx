@@ -22,14 +22,14 @@ const Header = () => {
             Hi! I'm Joseph Masika <Image src={assets.hand_icon} alt='' className='w-6'/>
         </motion.h3>
         <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Software and Network Developer.
+            Software Engineer
         </h1>
         <motion.p 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-            I am a Full Stack Web Developer and Network Engineer from Nairobi, Kenya with 2 years of experience in multiple companies like Ahadi Wireless and Nzoia Sugar.
+            I am a creative Software and Network engineer with expertise in designing, developing, and delivering enterprise-level applications and network architectures.
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a 

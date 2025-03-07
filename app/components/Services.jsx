@@ -29,7 +29,7 @@ const Services = () => {
         transition={{delay: 0.7, duration: 0.5}}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
         I am a full stack web developer and network engineer from Nairobi, 
-        Kenya with 2 years of experience in multiple companies like Ahadi Wireless and Nzoia Sugar.
+        Kenya with experience working in multiple companies like Ahadi Wireless and Nzoia Sugar company.
         </motion.p>
 
         <motion.div 

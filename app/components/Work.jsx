@@ -28,8 +28,7 @@ const Work = ({isDarkMode}) => {
         whileInView={{opacity: 1}}
         transition={{delay: 0.7, duration: 0.5}}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I am a full stack web developer and network engineer from Nairobi, 
-        Kenya with 3 years of experience in multiple companies like Konnect and Fidelity International Hospital.
+        My portfolio comprises several projects, some yet to be deployed and are available on my github repository.
         </motion.p>
         <motion.div 
         initial={{opacity: 0}}
@@ -40,8 +39,11 @@ const Work = ({isDarkMode}) => {
                 <motion.div
                  whileHover={{scale: 1.05}}
                  transition={{ duration: 0.3}}
-                key={index} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
-                 style={{backgroundImage: `url(${project.bgImage})`}}>
+                 key={index} 
+                 onClick={() => window.open("https://github.com/Massika-ke", "_blank")} 
+                 className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
+                 style={{backgroundImage: `url(${project.bgImage})`}}
+                 >
                     <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 
                         -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
                             <div>

@@ -1,4 +1,4 @@
-import { assets, infoList, toolsData } from "@/assets/assets";
+import { assets, infoList } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
@@ -42,8 +42,8 @@ const About = ({isDarkMode}) => {
                 transition={{duration: 0.6, delay: 0.8}}
                 className="flex-1">
                     <p className="mb-10 max-w-2xl font-Ovo">
-                        I am a Full Stack Web Developer with experience in crafting exceptional web 
-                        experinces with cutting-edge technologies, contributing to the success and growth of some companies.
+                        Full Stack Web Developer with experience in crafting exceptional web 
+                        experinces with cutting-edge technologies, contributing to the success and growth of a company.
                     </p>
                     
                     <motion.ul 
