@@ -78,32 +78,32 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Chat app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'FastFoods site',
-        description: 'Web Design',
+        title: 'Fidelity FastFoods',
+        description: 'Full stack food vendor website',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'ReactChat app',
+        description: 'Web based social media Application',
+        bgImage: '/work-2.png',
+    },
+    {
+        title: 'Network App',
+        description: 'Fetches Network Parameters from switches/routers',
+        bgImage: '/work-1.png',
+    },
+    {
+        title: 'Earthwise App-UI/UX',
+        description: 'Waste Management web application Design',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.web_icon, title: 'Web Development', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.mobile_icon, title: 'Network Administration', description: 'Network Administration involves monitoring and maintaining network systems...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Technical Support', description: 'Provision of prompt and quality technical customer service and support....', link: '' },
 ]
 
 export const infoList = [

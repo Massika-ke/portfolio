@@ -42,7 +42,7 @@ const About = ({isDarkMode}) => {
                 transition={{duration: 0.6, delay: 0.8}}
                 className="flex-1">
                     <p className="mb-10 max-w-2xl font-Ovo">
-                        I am a Full Stack Web Developer with 3 years of experience in crafting exceptional web 
+                        I am a Full Stack Web Developer with experience in crafting exceptional web 
                         experinces with cutting-edge technologies, contributing to the success and growth of some companies.
                     </p>
                     
