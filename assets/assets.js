@@ -23,9 +23,9 @@ import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
 import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
+import network_icon from './network-icon.png';
 import ui_icon from './ui-icon.png';
-import graphics_icon from './graphics-icon.png';
+import support_icon from './support-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -57,9 +57,9 @@ export const assets = {
     close_black,
     close_white,
     web_icon,
-    mobile_icon,
+    network_icon,
     ui_icon,
-    graphics_icon,
+    support_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -91,13 +91,13 @@ export const workData = [
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web Development', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Network Administration', description: 'Network Administration involves monitoring and maintaining network systems...', link: '' },
+    { icon: assets.network_icon, title: 'Network Administration', description: 'Network Administration involves monitoring and maintaining network systems...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Technical Support', description: 'Provision of prompt and quality technical customer service and support....', link: '' },
+    { icon: assets.support_icon, title: 'Technical Support', description: 'Provision of prompt and quality technical customer service and support....', link: '' },
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, Python, Php' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc. in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
