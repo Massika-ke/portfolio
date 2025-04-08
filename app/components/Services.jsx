@@ -28,8 +28,7 @@ const Services = () => {
         whileInView={{opacity: 1}}
         transition={{delay: 0.7, duration: 0.5}}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I am a full stack web developer and network engineer from Nairobi, 
-        Kenya with experience working in multiple companies like Ahadi Wireless and Nzoia Sugar company.
+        Fast-forward to today, and I have had the privilege of working at an International Hospital, and an Internet Service Provider corporation.
         </motion.p>
 
         <motion.div 
