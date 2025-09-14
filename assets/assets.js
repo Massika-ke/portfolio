@@ -78,8 +78,8 @@ export const workData = [
         bgImage: '/work-2.png',
     },
     {
-        title: 'Network App',
-        description: 'Fetches Network Parameters from switches/routers',
+        title: 'Network Appv1',
+        description: 'Automates network monitoring by fetching Network Parameters from switches/routers',
         bgImage: '/work-1.png',
     },
     {
@@ -90,10 +90,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web Development', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.network_icon, title: 'Network Administration', description: 'Network Administration involves monitoring and maintaining network systems...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.support_icon, title: 'Technical Support', description: 'Provision of prompt and quality technical customer service and support....', link: '' },
+    { icon: assets.web_icon, title: 'Web Development', description: 'I develop and deploy dynamic web interfaces with comprehensive server-side logic..', link: '' },
+    { icon: assets.network_icon, title: 'Network Administration', description: 'I design, deploy and maintain network operation architectures and IT systems...', link: '' },
+    { icon: assets.ui_icon, title: 'Information Security Analysis', description: 'I implement real-time threat monitoring, cybersecurity frameworks and incident resolution measures...', link: '' },
+    { icon: assets.support_icon, title: 'IT Technical Support', description: 'I deliver technical support for end-users across network systems and CRM platforms..', link: '' },
 ]
 
 export const infoList = [
