@@ -18,7 +18,7 @@ const Footer = ({isDarkMode}) => {
             <p>copyright @2026 Masika Joseph.</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li><a target='_blank' href="https://github.com/Massika-ke">GitHub</a></li>
-                <li><a target='_blank' href="https://www.linkedin.com/in/joseph-wamwoka-4b79a3351/">LinkedIn</a></li>
+                <li><a target='_blank' href="https://www.linkedin.com/in/joseph-masika-4b79a3351/">LinkedIn</a></li>
                 <li><a target='_blank' href="https://x.com/massika_ke">Twitter</a></li>
             </ul>
         </div>
